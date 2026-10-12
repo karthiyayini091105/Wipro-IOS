@@ -1,0 +1,23 @@
+let myName = "Karthi"
+print(myName)
+var myAge = 20
+print(myAge)
+let chiefMinister: String = "AnnaMalai"
+print(chiefMinister)
+let oneCharacterString = "A"
+print(oneCharacterString)
+//Integer and Double //
+var postiveNo: Int = +100
+print(postiveNo)
+//Double 
+//Decimal Numbers
+let decimalNo: Double = 3.14
+let normalNo: Double = -5
+print(decimalNo)
+print(normalNo)
+
+// Boolean 
+let isItRainingOutside = false 
+let areYouWatchingTv = true 
+print(isItRainingOutside)
+print(areYouWatchingTv)
