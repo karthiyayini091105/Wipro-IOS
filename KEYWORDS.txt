@@ -1,0 +1,142 @@
+KEYWORDS
+
+ 
+import Swift
+struct geeksforgeeks{
+    var employeeName = "Mohit"
+    var employeeID = 1234
+}
+var myinstance = geeksforgeeks()
+print("Employee Name:", myinstance.employeeName)
+print("Employee ID:", myinstance.employeeID)
+
+Output:
+
+Employee Name: Mohit
+Employee ID: 1234
+
+
+Keywords used in statements
+
+import Swift
+let EmpAge = 70
+if (EmpAge >= 60)
+{
+    
+     print("Senior Citizen")
+}
+
+else if (EmpAge >= 40)
+{
+        print("Middle age")
+}
+
+else
+{
+    
+       print("Young")
+}
+
+Output:
+
+Senior Citizen
+
+
+Printing Constants & Variables
+
+let placeName = “Mumbai”
+print(placeName)
+
+Output: Mumbai
+
+Arithmetic Operators
+
+import Swift
+
+var a = 5
+var b = 4
+var sum = a + b
+print("Addition:", sum)
+var sub = a - b
+print("Subtraction:", sub)
+var div = a / b
+print("Divide:", div)
+var mul = a * b
+print("Multiply:", mul)
+var mod = a % b
+print("Modulus:", mod)
+
+Output:
+
+Addition: 9
+Subtraction: 1
+Divide: 1
+Multiply: 20
+Modulus: 1
+
+Assignment Operators
+
+import Swift
+
+var a = 5
+var b = 1
+a += b
+print("Result of += operator: ", a)
+a -= b
+print("Result of -= operator: ", a)
+a /= b
+print("Result of /= operator: ", a)
+a *= b
+print("Result of *= operator: ", a)
+a %= b
+print("Result of %= operator: ", a)
+
+Output:
+
+6
+5
+5
+5
+0
+
+Bitwise Operators
+
+import Swift
+var a = 2
+var b = 1
+print("Bitwise left shift operator: ", a << b)
+print("Bitwise right shift operator: ", a >> b) 
+print("AND operator: ", a & b)
+print("OR operator: ", a | b)
+print("XOR operator: ", a ^ b)
+print("Tilde operator: ", ~a)
+
+Output:
+
+4
+1
+0
+3
+3
+-3
+
+Comparison Operators
+
+import Swift
+var a = 2
+var b = 1
+print(a < b)
+print(a > b)
+print(a == b)
+print(a != b)
+print(a <= b)
+print(a >= b)
+
+Output:
+
+false
+true
+false
+true
+false
+true
